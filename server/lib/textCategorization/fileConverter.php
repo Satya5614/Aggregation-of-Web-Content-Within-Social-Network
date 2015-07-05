@@ -1,0 +1,9 @@
+<?php
+	include('profilize.php');
+	//analyze('samples/business_finance.txt');
+	//analyze('samples/entertainment.txt');
+	analyze('samples/knowledge.txt');
+	//analyze('samples/lifestyle.txt');
+	//analyze('samples/news.txt');
+	//analyze('samples/sports.txt');
+?>

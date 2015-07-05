@@ -1,0 +1,1 @@
+<?php include "phptextcat.class.php";$str = "Overdrive is India's No.1 car and motorcycle publication";$analyser = new PhpTextCat('business_finance', 'entertainment', 'knowledge', 'lifestyle', 'news', 'sports');echo($analyser->guessLanguage($str)."sdfnksfn");//echo($analyser->rateText($str));?>

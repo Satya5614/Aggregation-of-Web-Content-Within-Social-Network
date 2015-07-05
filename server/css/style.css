@@ -1,0 +1,20 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.the-table {
+  /*table-layout: fixed;*/
+  word-wrap: break-word;
+}
+.s_col {
+  max-width: 100px;
+  word-wrap:break-word;
+}
+.l_col{
+  max-width: 250px;
+  word-wrap:break-word;
+}
+.m_col{
+  max-width: 200px;
+  word-wrap:break-word;
+}

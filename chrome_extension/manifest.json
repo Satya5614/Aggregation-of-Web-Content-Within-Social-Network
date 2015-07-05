@@ -1,0 +1,25 @@
+{
+	"name": "BSI - Browser Session Informer",
+	"version": "0.1",
+	"manifest_version": 2,
+
+	"description": "It will store the details of all urls accessed in a particular browser session.",
+	
+	"permissions": [
+    	"history",
+		"tabs",
+		"storage",
+		"http://*/",
+		"management"
+	],
+
+	"background": {
+    	"scripts": ["functions.js"]
+  	},
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Browser Session Informer"
+	}
+
+}
